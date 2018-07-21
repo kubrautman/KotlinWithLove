@@ -13,52 +13,93 @@ package introduction
 fun main(args: Array<String>) {
 
     /**
-     * Imzali (Signed) degiskenler, pozitif ve negatif araliklarda sayilari temsil etmenizi saglar.
-     * Imzasiz (UnSigned) degiskenler, sadecce pozitif araliklarda sayilari temsil etmenizi saglar.
+     *      Imzali (Signed) degiskenler, pozitif ve negatif araliklarda sayilari temsil etmenizi saglar.
+     *      Imzasiz (UnSigned) degiskenler, sadecce pozitif araliklarda sayilari temsil etmenizi saglar.
      */
 
-    // Byte 8-bit signed integer
-    // https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-byte/index.html
+    /**
+     *
+     *      Byte 8-bit signed integer
+     *      https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-byte/index.html
+     */
     val numberMaxByte: Byte = 127
     val numberMinByte: Byte = -128
 
-    // Short 16-bit signed integer
-    // https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-short/index.html
+    /**
+     *
+     *      Short 16-bit signed integer
+     *      https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-short/index.html
+     *
+     */
     val numberMaxShort: Short = 32_767
     val numberMinShort: Short = -32_768
 
-    // Int 32-bit signed integer
-    // https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-int/index.html
+    /**
+     *
+     *      Int 32-bit signed integer
+     *      https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-int/index.html
+     *
+     */
     val numberMaxInt: Int = 2_147_483_647
     val numberMinInt: Int = -2_147_483_648
 
-    // Long 64-bit signed integer
-    // https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-long/index.html
+    /**
+     *
+     *      Long 64-bit signed integer
+     *      https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-long/index.html
+     *
+     */
     val numberMaxLong: Long = 9_223_372_036_854_775_807
     val numberMinLong: Long = -9_223_372_036_854_775_807 // 808 ile bitince Long saymiyor.
 
-    // Float tek hassasiyetli (single-precision)
-    // 32-bit IEEE 754 floating point number
-    // IEEE Kayan Nokta Aritmetiği Standardı
-    // https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-float/index.html
+    /**
+     *
+     *  Float tek hassasiyetli (single-precision)
+     *  32-bit IEEE 754 floating point number
+     *  IEEE Kayan Nokta Aritmetiği Standardı
+     *  https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-float/index.html
+     *
+     */
     val numberMaxFloat: Float = 3.4028235E38F // Float.MAX_VALUE (noktadan sonrasi sonsuza gider.)
     val numberMinFloat: Float = 1.4E-45F     // Float.MIN_VALUE (noktadan sonrasi sifira gider.)
 
-    // Double çift hassasiyetli (double-precision)
-    // 64-bit IEEE 754 floating point number.
-    // IEEE Kayan Nokta Aritmetiği Standardı
-    // https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-double/index.html
+    /**
+     *
+     *      Double çift hassasiyetli (double-precision)
+     *      64-bit IEEE 754 floating point number.
+     *      IEEE Kayan Nokta Aritmetiği Standardı
+     *      https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-double/index.html
+     *
+     */
     val numberMaxDouble: Double = 1.7976931348623157E308 // (noktadan sonrasi sonsuza gider.)
     val numberMinDouble: Double = 4.9E-324 // (noktadan sonrasi sifira gider.)
 
-    // true ya da false deger alabilir. 16 bit.
-    // https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-boolean/index.html
+    /**
+     *
+     *  true ya da false deger alabilir. 1 bit.
+     *  https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-boolean/index.html
+     *
+     */
+    val isMan = false
+    val isWomen: Boolean = true
+
+    /**
+     *
+     *  16 bit.
+     *  https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-char/index.html
+     *
+     */
     val charMax: Char = '\u0000'
     val charMin: Char = '\uffff'
     val firstCharOfMyName = 'G'
 
-    //String
-    // https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html
+
+    /**
+     *
+     *     String
+     *     https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html
+     *
+     */
     val helloKodluyoruz = "Hello Kodluyoruz"
     var item: Char
 
@@ -80,7 +121,11 @@ fun main(args: Array<String>) {
 
     println("------------------------------------------------------------")
 
-    //Stringlerin degismezleri (Strings Literals)
+    /**
+     *
+     * Stringlerin degismezleri (Strings Literals)
+     *
+     */
 
     //1- Escape Characters
     val helloWorld1 = "1 Hello\nWorld"
@@ -158,7 +203,6 @@ fun main(args: Array<String>) {
 
     val pi: Float = 3.14_15F
     val hexBytes: Long = 0xFF_EC_DE_5E
-
     val hexWords: Long = 0xCAFE_BABE
     val maxLong: Long = 0x7fff_ffff_ffff_ffffL
     val nybbles: Byte = 0b0010_0101

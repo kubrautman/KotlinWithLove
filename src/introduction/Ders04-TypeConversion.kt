@@ -14,7 +14,8 @@ fun main(args: Array<String>) {
 
     val intValue: Int = 5
 
-    // Java'da problem olmazdi. Kucuk number veri tipleri buyuklerine donusturulebilirdi.
+    // Java'da kucuk number veri tipleri buyuk number veri tiplerine donusturulebilirdi.
+    // Kotlin'de direkt cevrim yoktur
     //val longValue : Long = intValue // hata verir.
     val longValue: Long = intValue.toLong()
 

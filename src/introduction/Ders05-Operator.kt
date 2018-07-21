@@ -55,6 +55,8 @@ fun main(args: Array<String>) {
         "$grade = Bulunamadı!!"
     }
 
+    println("------------------------------------------------------------")
+
     println(grade.compareTo(100) > 0)
     println(grade.compareTo(100) < 0)
     println(grade.compareTo(100) >= 0)
@@ -73,6 +75,7 @@ fun main(args: Array<String>) {
     a != b  !(a?.equals(b)?: (b === null))
     */
 
+    println("------------------------------------------------------------")
 
     var a = 20
     var b = 5
@@ -96,6 +99,7 @@ fun main(args: Array<String>) {
         a%=b    a.remAssign(b)
      */
 
+    println("------------------------------------------------------------")
 
     var numbOne = 10
     var numbTwo = 5

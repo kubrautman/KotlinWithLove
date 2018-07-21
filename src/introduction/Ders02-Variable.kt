@@ -30,6 +30,13 @@ fun main(args: Array<String>) {
     var broLang: String
     // broLang = 5 // hata verir.
 
+    /**
+     *
+     *     ? isareti null (nullable) deger girilebilir anlamina geliyor.
+     *     !! null olmayacagini (not null) garanti ediyorum anlamina geliyor.
+     *     ?. null degil ise (if not null) ilgili methodu kullan anlamina geliyor.
+     *
+     */
 
     print("Adınızı giriniz : ")
 
