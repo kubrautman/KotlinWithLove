@@ -25,7 +25,7 @@ fun main(args: Array<String>) {
     betaFrameworkBOD = 2018
 
     awesomeLang = "Awesome Kotlin"
-    // awesomeLangBOD = 2012 // hata verir.
+    //awesomeLangBOD = 2012 // hata verir.
 
     var broLang: String
     // broLang = 5 // hata verir.

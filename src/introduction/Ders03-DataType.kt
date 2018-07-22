@@ -201,6 +201,11 @@ fun main(args: Array<String>) {
 
     println("Substring is \"${stringOne.subSequence(4, 7)}\"")
 
+    val amount = "3.14"
+
+    if (amount.indexOf(".") != -1)
+        amount.split(".")[1]
+
     val pi: Float = 3.14_15F
     val hexBytes: Long = 0xFF_EC_DE_5E
     val hexWords: Long = 0xCAFE_BABE

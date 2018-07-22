@@ -118,4 +118,12 @@ fun main(args: Array<String>) {
         --a     a.dec()
     	!a      a.not()
      */
+
+    println("------------------------------------------------------------")
+
+    /**
+     *
+     *      === ifadesi isaret edilen referans tipleri karsilatirir.
+     *      == ifadesi degeri karsilastirir.
+     */
 }
